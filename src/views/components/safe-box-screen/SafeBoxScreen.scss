@@ -1,0 +1,39 @@
+@import './../../../scss/variables';
+
+.sdb {
+  &--screen {
+    background-color: $screen-back-light-on;
+    padding: $screen-padding;
+    border-radius: $screen-border-radius;
+    margin-bottom: 40px;
+    min-height: $screen-min-height;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: $screen-box-shadow;
+
+    &--state,
+    &--lock {
+      color: $screen-text;
+      margin: 0;
+    }
+
+    &--lock {
+      font-size: $screen-lock-font-size;
+    }
+
+    &--state {
+      text-align: right;
+      font-weight: 500;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      direction: rtl;
+      font-size: $screen-state-font-size;
+    }
+
+    &--idle {
+      background-color: $screen-back-light-off;
+    }
+  }
+}

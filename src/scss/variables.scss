@@ -1,0 +1,28 @@
+$font-family: 'Roboto Mono', monospace;
+$background: #434343;
+$white: #f1f1f1;
+$black: #0a0a0a;
+
+// Buttons (Keypads)
+$button: #63636e;
+$button-text: #f3f3f3;
+$button-box-shadow: 0 0 20px $black;
+$button-border-radius: 5px;
+$button-font-size: 60px;
+$button-size: 100px;
+
+// Panel
+$panel-box-shadow: 0 0 20px $black;
+$panel-body: #7d7d7f;
+$panel-border-radius: 10px;
+
+// Screen
+$screen-text: #434343;
+$screen-back-light-off: #47b2b2;
+$screen-back-light-on: #7fffff;
+$screen-border-radius: 10px;
+$screen-box-shadow: 0 0 10px rgba($black, 0.5);
+$screen-padding: 10px;
+$screen-min-height: 180px;
+$screen-lock-font-size: 32px;
+$screen-state-font-size: 54px;

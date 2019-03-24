@@ -1,0 +1,28 @@
+@import './../../../scss/variables';
+
+.sdb {
+  &--button {
+    box-shadow: $button-box-shadow;
+    background-color: $button;
+    color: $button-text;
+    width: $button-size;
+    height: $button-size;
+    margin-bottom: 20px;
+    border-radius: $button-border-radius;
+    cursor: pointer;
+    text-align: center;
+
+    &--disabled {
+      pointer-events: none;
+      cursor: not-allowed;
+      opacity: .6;
+    }
+
+    &--paragraph {
+      font-size: $button-font-size;
+      margin: 0;
+      line-height: $button-size;
+      font-weight: 500;
+    }
+  }
+}
