@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Hotel-Safe-Deposit-Box/precache-manifest.a1ec8239941ed070a34b4c6a21ff8ce9.js"
+  "/hotel-safe-deposit-box/precache-manifest.0dd46fe7528b0ec1641daf8b778e2255.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Hotel-Safe-Deposit-Box/index.html", {
+workbox.routing.registerNavigationRoute("/hotel-safe-deposit-box/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
